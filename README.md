@@ -1,6 +1,6 @@
 ---
 
-# Master Thesis on test amplification for Smart Contracts
+# Test amplification for Smart Contracts with search-based and LLM-based methods
 
 This repository contains a **test amplification framework** for Solidity smart contracts, integrating both **Search-Based** and **LLM-Based** methods. Developed as part of a master’s thesis project, it explores automated strategies to improve smart contract test suites through advanced code analysis and generation techniques.
 
