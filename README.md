@@ -2,7 +2,75 @@
 
 # Master Thesis on test amplification for Smart Contracts
 
-This guide provides a step-by-step process for testing smart contracts using JavaScript code in the **Hardhat** environment.
+This repository contains a **test amplification framework** for Solidity smart contracts, integrating both **Search-Based** and **LLM-Based** methods. Developed as part of a master’s thesis project, it explores automated strategies to improve smart contract test suites through advanced code analysis and generation techniques.
+
+
+
+---
+
+## Key Features
+
+- **Search-Based Amplification**  
+  Uses random search, guided search, and genetic algorithms to evolve existing tests and maximize structural coverage.
+
+- **LLM-Based Amplification**  
+  Employs large language models (e.g., GPT, Claude) to semantically enrich tests with new, meaningful assertions and edge case coverage.
+
+- **Hybrid Amplification**  
+  Combines both approaches by refining LLM-generated tests through search-based strategies (and vice versa) to achieve higher coverage and test efficiency.
+
+- **Comprehensive Evaluation**  
+  Benchmarked on 117 Solidity contracts using detailed metrics via `Hardhat` and `solidity-coverage`.
+
+- **Supports Mutation Testing**  
+  Compatible with [SuMo](https://github.com/SoftWareEvolution/solidity-mutation-testing) for deeper fault-detection assessment (optional due to high computational cost).
+
+- **Dataset Included**  
+  Includes a curated testbench of Solidity contracts and baseline tests for reproducible experiments.
+
+---
+
+## Metrics Used
+
+- Statement, branch, and function coverage
+- Test inflation factor and pass rate
+- Relative efficiency (for LLM-based methods)
+- Mutation coverage (selectively, with SuMo)
+
+---
+
+## Built With
+
+- **Languages & Frameworks**:  
+  `Solidity`, `JavaScript`, `Python`
+
+- **Testing & Tooling**:  
+  `Hardhat`, `Mocha`, `Chai`, `solidity-coverage`
+
+- **Mutation Testing (optional)**:  
+  [`SuMo`](https://github.com/SoftWareEvolution/solidity-mutation-testing)
+
+- **LLMs**:  
+  `GPT-4`, `Claude 3.7`, and other open/closed-source LLMs
+
+- **Search Algorithms**:  
+  Implemented in Python for flexible experiment design
+
+---
+
+## Thesis Information
+
+**Title**: *Test Amplification for Smart Contracts*  
+**Authors**: Jorden Van Handenhoven & Billy Vanhove  
+**Academic Year**: 2024–2025  
+**Institution**: University of Antwerp  
+**Supervisor**: Prof. Serge Demeyer, AnSyMo Research Group
+
+---
+
+## License
+
+This project is released for academic and research purposes. Please contact the authors for any non-academic use.
 
 ---
 
