@@ -1,0 +1,41 @@
+
+Version
+=======
+> solidity-coverage: v0.8.14
+
+Instrumenting for coverage...
+=============================
+
+> PublicMath.sol
+
+Compilation:
+============
+
+Nothing to compile
+
+Network Info
+============
+> HardhatEVM: v2.22.17
+> network:    hardhat
+
+
+
+  Contract: Math
+    ✔ should correctly calculate x^0 as 1
+    ✔ should return correct results for expected power for x^1 as x
+    ✔ should return correct results for expected power for x^2
+    ✔ should return correct results for expected power for x^n
+
+
+  4 passing (75ms)
+
+-----------------|----------|----------|----------|----------|----------------|
+File             |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-----------------|----------|----------|----------|----------|----------------|
+ contracts/      |      100 |      100 |      100 |      100 |                |
+  PublicMath.sol |      100 |      100 |      100 |      100 |                |
+-----------------|----------|----------|----------|----------|----------------|
+All files        |      100 |      100 |      100 |      100 |                |
+-----------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json

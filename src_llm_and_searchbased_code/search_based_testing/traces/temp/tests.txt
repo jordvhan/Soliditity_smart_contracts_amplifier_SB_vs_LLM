@@ -1,0 +1,19 @@
+Compiled 1 Solidity file successfully (evm target: london).
+
+
+  Contract: Math (Amplified Tests)
+    ✔ should correctly calculate edge cases: x^0, x^1
+    ✔ should correctly handle large bases with small exponents
+
+  Contract: Math
+    ✔ should correctly calculate x^0 as 1
+    ✔ should return correct results for expected power for x^1 as x
+    ✔ should return correct results for expected power for x^2
+    ✔ should return correct results for expected power for x^n
+
+  Math Contract
+    ✔ should correctly return the power for a positive and negative number 1
+
+
+  7 passing (415ms)
+

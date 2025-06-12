@@ -1,0 +1,38 @@
+
+Version
+=======
+> solidity-coverage: v0.8.14
+
+Instrumenting for coverage...
+=============================
+
+> PublicMath.sol
+
+Compilation:
+============
+
+Compiled 1 Solidity file successfully (evm target: london).
+
+Network Info
+============
+> HardhatEVM: v2.22.17
+> network:    hardhat
+
+
+
+  Math Contract
+    ✔ should correctly return the power for a positive and negative number 1
+
+
+  1 passing (25ms)
+
+-----------------|----------|----------|----------|----------|----------------|
+File             |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+-----------------|----------|----------|----------|----------|----------------|
+ contracts/      |      100 |       50 |      100 |      100 |                |
+  PublicMath.sol |      100 |       50 |      100 |      100 |                |
+-----------------|----------|----------|----------|----------|----------------|
+All files        |      100 |       50 |      100 |      100 |                |
+-----------------|----------|----------|----------|----------|----------------|
+
+> Istanbul reports written to ./coverage/ and ./coverage.json
